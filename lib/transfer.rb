@@ -5,6 +5,6 @@ class Transfer
     def initialize(name)
       @name = name
       @balance = 1000
-      @status = "open"
+      @status = "pending"
     end
 end
